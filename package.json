@@ -1,0 +1,30 @@
+{
+  "name": "fruitmachine-domdelegate",
+  "title": "FruitMachine Delegate Helper",
+  "version": "0.0.1",
+  "author": {
+    "name": "Matt Andrews",
+    "email": "matt@mattandre.ws",
+    "github": "matthew-andrews"
+  },
+  "organization": "The Financial Times Limited",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewandrews/fruitmachine-domdelegate"
+  },
+  "main": "lib/delegate",
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "dom-delegate": "*"
+  },
+  "keywords": [],
+  "contributors": [
+    {
+      "name": "Matt Andrews",
+      "email": "matt@mattandre.ws",
+      "github": "matthew-andrews"
+    }
+  ]
+}
