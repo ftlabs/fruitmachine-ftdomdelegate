@@ -16,7 +16,7 @@
   "engines": {
     "node": "*"
   },
-  "devDependencies": {
+  "dependencies": {
     "dom-delegate": "*"
   },
   "keywords": [],
