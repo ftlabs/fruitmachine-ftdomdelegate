@@ -2,7 +2,11 @@
 
 A [dom-delegate](http://github.com/ftlabs/dom-delegate) [FruitMachine](http://github.com/ftlabs/fruitmachine) helper.
 
-This helper will **instantiate** the dom-delegate when a fruitmachine module is instantiated; **binds** the dom-delegate to the module's [el](https://github.com/ftlabs/fruitmachine/blob/master/docs/module-el.md) when the fruitmachine module is setup; **unbinds** all those event listeners when the fruitmachine module fires its teardown event and **destroy** the dom-delegate when the fruitmachine object is destroyed.
+This helper:
+- **Instantiates** the dom-delegate when a fruitmachine module is instantiated;
+- **Binds** that dom-delegate to the module's [el](https://github.com/ftlabs/fruitmachine/blob/master/docs/module-el.md) when the fruitmachine module is setup;
+- **Unbinds** the dom-delegate instance from the el when the fruitmachine module fires its teardown event;
+- And **destroy** the dom-delegate when the fruitmachine object is destroyed.
 
 ## Usage example
 
