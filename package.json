@@ -14,7 +14,7 @@
   },
   "main": "lib/delegate",
   "dependencies": {
-    "dom-delegate": "v0.2.1"
+    "dom-delegate": "0.2.1"
   },
   "contributors": [
     {
