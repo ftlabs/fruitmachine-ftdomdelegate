@@ -13,13 +13,9 @@
     "url": "git://github.com/matthewandrews/fruitmachine-domdelegate"
   },
   "main": "lib/delegate",
-  "engines": {
-    "node": "*"
-  },
   "dependencies": {
-    "dom-delegate": "*"
+    "dom-delegate": "v0.2.1"
   },
-  "keywords": [],
   "contributors": [
     {
       "name": "Matt Andrews",
