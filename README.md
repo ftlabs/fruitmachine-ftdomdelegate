@@ -22,6 +22,7 @@ var Apple = fruitmachine.define({
   },
   onButtonClick: function() {
     alert("Please do not press this button again.");
+    this.fire("buttonclick");
   }
 });
 ```
