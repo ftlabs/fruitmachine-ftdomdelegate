@@ -10,7 +10,7 @@
   "organization": "The Financial Times Limited",
   "repository": {
     "type": "git",
-    "url": "git://github.com/matthewandrews/fruitmachine-domdelegate"
+    "url": "git://github.com/ftlabs/fruitmachine-domdelegate"
   },
   "main": "lib/delegate",
   "dependencies": {
