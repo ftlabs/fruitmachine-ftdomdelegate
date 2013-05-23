@@ -21,7 +21,6 @@ var Apple = fruitmachine.define({
     this.delegate.on('button', this.onButtonClick);
   },
   onButtonClick: function() {
-    alert("Please do not press this button again.");
     this.fire("buttonclick");
   }
 });
