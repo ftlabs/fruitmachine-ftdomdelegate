@@ -8,7 +8,7 @@ This helper:
 - **Unbinds** the dom-delegate instance from the *El* when the fruitmachine module fires its teardown event;
 - And **destroy** the dom-delegate when the fruitmachine object is destroyed.
 
-## Usage example
+## Usage examples
 
 ```javascript
 var Apple = fruitmachine.define({
@@ -18,10 +18,10 @@ var Apple = fruitmachine.define({
     this.onButtonClick = this.onButtonClick.bind(this);
   },
   setup: function() {
-    this.delegate.on('button', this.onButtonClick);
+    this.delegate.on('click', 'button', this.onButtonClick);
   },
   onButtonClick: function() {
-    this.fire("buttonclick");
+    this.fire('buttonclick');
   }
 });
 ```
