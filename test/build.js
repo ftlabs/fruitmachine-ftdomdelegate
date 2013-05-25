@@ -3,7 +3,7 @@ var fs = require('fs');
 var proxyquire = require('proxyquireify');
 
 // Create build folder
-if (!fs.existsSync(dest)) fs.mkdirSync();
+if (!fs.existsSync(dest)) fs.mkdirSync(dest);
 
 // Build proxied js
 proxyquire.browserify()
