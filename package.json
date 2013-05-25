@@ -20,7 +20,7 @@
     "test": "node test/build && ./node_modules/.bin/grunt buster"
   },
   "dependencies": {
-    "dom-delegate": "git://github.com/matthew-andrews/dom-delegate.git#cleaner-syntax"
+    "dom-delegate": "~0.3.0"
   },
   "devDependencies": {
     "buster": "~0.6.2",
