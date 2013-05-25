@@ -1,6 +1,6 @@
 
 var Masthead = fruitmachine.define({
-	module: 'masthead',
-	template: templateMasthead,
-	tag: 'h1'
+  module: 'masthead',
+  template: templateMasthead,
+  tag: 'h1'
 });
