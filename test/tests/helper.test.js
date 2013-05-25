@@ -6,11 +6,6 @@ buster.testCase('fruitmachine-domdelegate', {
       destroy: this.spy()
     };
 
-    /**
-     * Setup spying mock for
-     * the dom-delegate
-     */
-
     window.fruitmachine.define({
       name: 'apple',
       template: function() {},
