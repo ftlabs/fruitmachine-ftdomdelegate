@@ -6,7 +6,7 @@ This helper:
 - **Instantiates** the dom-delegate when a _fruitmachine module_ is instantiated;
 - **Binds** that dom-delegate to the module's *[El](https://github.com/ftlabs/fruitmachine/blob/master/docs/module-el.md)* when the _fruitmachine module_ is setup;
 - **Unbinds** the dom-delegate instance from the *El* when the _fruitmachine module_ fires its teardown event;
-- And **destroy** the dom-delegate when the _fruitmachine module_ is destroyed.
+- And **destroys** the dom-delegate when the _fruitmachine module_ is destroyed.
 
 ## Usage examples
 
