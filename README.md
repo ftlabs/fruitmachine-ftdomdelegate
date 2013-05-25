@@ -30,7 +30,11 @@ Note: as long as you properly destroy your fruitmachine modules after you're fin
 
 ## Examples
 
-- [TODO](http://matthew-andrews.github.io/fruitmachine-domdelegate/examples/todo/)
+- There is [a rework of the TODO example](http://github.com/matthew-andrews/fruitmachine-domdelegate/tree/master/examples/) from the main fruitmachine project.  You will need to clone this repository then run the following command in order to view it.  The modules that make use of the fruitmachine-domdelegate helper are located [here](https://github.com/matthew-andrews/fruitmachine-domdelegate/blob/master/examples/lib/modules/list-item/index.js) and [here](https://github.com/matthew-andrews/fruitmachine-domdelegate/blob/master/examples/lib/modules/strawberry/index.js).
+
+```
+npm install
+```
 
 ## Tests
 

@@ -1,5 +1,4 @@
 
-
 var templateLayoutB = function(data){
 	return "<div class='layout-b_header'>" + (data[1]||'') + "</div>" +
 	"<div class='layout-b_content'>" +
