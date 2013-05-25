@@ -27,3 +27,22 @@ var Apple = fruitmachine.define({
 ```
 
 Note: as long as you properly destroy your fruitmachine modules after you're finished with them, you need not worry about detached DOM nodes because [dom-delegate](http://github.com/ftlabs/dom-delegate) will ensure any event listeners added are removed when `destroy` is called on it.
+
+## Tests
+
+```
+$ npm install
+$ npm test
+```
+
+## Author
+
+- **Matt Andrews** - [@matthew-andrews](http://github.com/matthew-andrews)
+
+## License
+Copyright (c) 2012 The Financial Times Limited
+Licensed under the MIT license.
+
+## Credits and collaboration
+
+The lead developer of FruitMachine is [@matthew-andrews](http://github.com/matthew-andrews) at FT Labs. All open source code released by FT Labs is licenced under the MIT licence. We welcome comments, feedback and suggestions. Please feel free to raise an issue or pull request. Enjoy.
