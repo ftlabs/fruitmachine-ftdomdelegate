@@ -45,4 +45,4 @@ Licensed under the MIT license.
 
 ## Credits and collaboration
 
-The lead developer of FruitMachine is [@matthew-andrews](http://github.com/matthew-andrews) at FT Labs. All open source code released by FT Labs is licenced under the MIT licence. We welcome comments, feedback and suggestions. Please feel free to raise an issue or pull request. Enjoy.
+The lead developer of fruitmachine-domdelegate is [@matthew-andrews](http://github.com/matthew-andrews) at FT Labs. All open source code released by FT Labs is licenced under the MIT licence. We welcome comments, feedback and suggestions. Please feel free to raise an issue or pull request. Enjoy.
