@@ -98,7 +98,7 @@ buster.testCase('fruitmachine-domdelegate', {
 
     // Reset the spys so
     // that we're only testing
-    // the teardown method.
+    // the destroy method.
     window.spys.instantiate.reset();
     window.spys.root.reset();
     window.spys.destroy.reset();
