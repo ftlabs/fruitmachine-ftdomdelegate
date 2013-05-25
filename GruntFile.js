@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 
     browserify: {
       build: {
-        src: 'lib/delegate.js',
+        src: 'lib/helper.js',
         dest: 'build/<%= pkg.name %>.js'
       },
       options: {

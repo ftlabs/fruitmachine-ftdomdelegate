@@ -33,7 +33,7 @@ buster.testCase('fruitmachine-domdelegate', {
     refute(window.spys.destroy.called);
   },
 
-  "on `setup` a dom-delegate should have its root method called once with one argument (the dom element passed into inject) and nothing more": function() {
+  "on `setup` a dom-delegate should have its root method called once with the module's el and nothing more": function() {
     var view = window.fruitmachine({
       module: 'apple',
       helpers: [window.fruitMachineDOMDelegate]

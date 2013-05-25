@@ -1,14 +1,15 @@
+var dest = __dirname + '/build';
 var fs = require('fs');
 var proxyquire = require('proxyquireify');
 
 // Create build folder
-fs.mkdirSync(__dirname + '/build');
+if (!fs.existsSync(dest)) fs.mkdirSync();
 
 // Build proxied js
 proxyquire.browserify()
   .require(require.resolve('./test'), { entry: true })
   .bundle()
-  .pipe(fs.createWriteStream(__dirname + '/build/fruitmachine-domdelegate.test.js'))
+  .pipe(fs.createWriteStream(dest + '/fruitmachine-domdelegate.test.js'))
   .on('error', function(deets) {
     console.log(deets);
   });

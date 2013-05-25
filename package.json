@@ -1,7 +1,7 @@
 {
   "name": "fruitmachine-domdelegate",
   "title": "FruitMachine Delegate Helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Matt Andrews",
     "email": "matt@mattandre.ws",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git://github.com/ftlabs/fruitmachine-domdelegate"
   },
-  "main": "lib/index",
+  "main": "lib/helper",
   "engines": {
     "node": "*"
   },
