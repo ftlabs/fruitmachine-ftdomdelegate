@@ -28,6 +28,10 @@ var Apple = fruitmachine.define({
 
 Note: as long as you properly destroy your fruitmachine modules after you're finished with them, you need not worry about detached DOM nodes because [dom-delegate](http://github.com/ftlabs/dom-delegate) will ensure any event listeners added are removed when `destroy` is called on it.
 
+## Examples
+
+- [TODO](http://matthew-andrews.github.io/fruitmachine-domdelegate/examples/todo/)
+
 ## Tests
 
 ```
