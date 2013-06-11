@@ -10,6 +10,6 @@ proxyquire.browserify()
   .require(require.resolve('./test'), { entry: true })
   .bundle()
   .pipe(fs.createWriteStream(dest + '/fruitmachine-domdelegate.test.js'))
-  .on('error', function(deets) {
-    console.log(deets);
+  .on('error', function(details) {
+    console.log(details);
   });
