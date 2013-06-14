@@ -19,7 +19,7 @@ buster.testCase('fruitmachine-ftdomdelegate', {
   "on `initialize` a dom-delegate should be instantiated (once) with no arguments and nothing more": function() {
     var view = window.fruitmachine({
       module: 'apple',
-      helpers: [window.fruitMachineDOMDelegate]
+      helpers: [window.fruitMachineFTDOMDelegate]
     });
 
     assert(window.spys.instantiate.calledOnce);
@@ -31,7 +31,7 @@ buster.testCase('fruitmachine-ftdomdelegate', {
   "on `setup` a dom-delegate should have its root method called once with the module's el and nothing more": function() {
     var view = window.fruitmachine({
       module: 'apple',
-      helpers: [window.fruitMachineDOMDelegate]
+      helpers: [window.fruitMachineFTDOMDelegate]
     });
 
     // Reset the spys so
@@ -55,7 +55,7 @@ buster.testCase('fruitmachine-ftdomdelegate', {
   "on `teardown` a dom-delegate should have its root method called once with no arguments and nothing more": function() {
     var view = window.fruitmachine({
       module: 'apple',
-      helpers: [window.fruitMachineDOMDelegate]
+      helpers: [window.fruitMachineFTDOMDelegate]
     });
 
     view
@@ -82,7 +82,7 @@ buster.testCase('fruitmachine-ftdomdelegate', {
   "on `destroy` a dom-delegate should have its destroy method called once with no arguments and nothing more": function() {
     var view = window.fruitmachine({
       module: 'apple',
-      helpers: [window.fruitMachineDOMDelegate]
+      helpers: [window.fruitMachineFTDOMDelegate]
     });
 
     view

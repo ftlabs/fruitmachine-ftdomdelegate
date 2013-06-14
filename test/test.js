@@ -14,4 +14,4 @@ var stubs = {
 };
 var proxyquire = require('proxyquireify')(require);
 
-window.fruitMachineDOMDelegate = proxyquire('../lib/helper', stubs);
+window.fruitMachineFTDOMDelegate = proxyquire('../lib/helper', stubs);
