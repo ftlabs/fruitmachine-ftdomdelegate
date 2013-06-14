@@ -1,6 +1,6 @@
-# fruitmachine-domdelegate [![Build Status](https://travis-ci.org/matthew-andrews/fruitmachine-domdelegate.png?branch=master)](https://travis-ci.org/matthew-andrews/fruitmachine-domdelegate)
+# fruitmachine-ftdomdelegate [![Build Status](https://travis-ci.org/ftlabs/fruitmachine-ftdomdelegate.png?branch=master)](https://travis-ci.org/ftlabs/fruitmachine-ftdomdelegate)
 
-A [dom-delegate](http://github.com/ftlabs/dom-delegate) [FruitMachine](http://github.com/ftlabs/fruitmachine) helper.
+A [ftdomdelegate](http://github.com/ftlabs/ftdomdelegate) [FruitMachine](http://github.com/ftlabs/fruitmachine) helper.
 
 This helper:
 - **Instantiates** the dom-delegate when a _fruitmachine module_ is instantiated;
@@ -13,7 +13,7 @@ This helper:
 ```javascript
 var Apple = fruitmachine.define({
   name: 'apple',
-  helpers: [require('fruitmachine-domdelegate')],
+  helpers: [require('fruitmachine-ftdomdelegate')],
   initialize: function() {
     this.onButtonClick = this.onButtonClick.bind(this);
   },
@@ -30,13 +30,13 @@ Note: as long as you properly destroy your fruitmachine modules after you're fin
 
 ### Demonstration 'todo' app
 
-There is [a rework of the TODO example](http://github.com/matthew-andrews/fruitmachine-domdelegate/tree/master/examples/) from the main fruitmachine project.  You will need to clone this repository then run the following command in order to view it.
+There is [a rework of the TODO example](http://github.com/matthew-andrews/fruitmachine-ftdomdelegate/tree/master/examples/) from the main fruitmachine project.  You will need to clone this repository then run the following command in order to view it.
 
 ```
 npm install
 ```
 
-The modules that make use of the fruitmachine-domdelegate helper are located [here](https://github.com/matthew-andrews/fruitmachine-domdelegate/blob/master/examples/lib/modules/list-item/index.js) and [here](https://github.com/matthew-andrews/fruitmachine-domdelegate/blob/master/examples/lib/modules/strawberry/index.js).
+The modules that make use of the fruitmachine-ftdomdelegate helper are located [here](https://github.com/matthew-andrews/fruitmachine-ftdomdelegate/blob/master/examples/lib/modules/list-item/index.js) and [here](https://github.com/matthew-andrews/fruitmachine-ftdomdelegate/blob/master/examples/lib/modules/strawberry/index.js).
 
 ## Tests
 
@@ -55,4 +55,4 @@ Licensed under the MIT license.
 
 ## Credits and collaboration
 
-The lead developer of fruitmachine-domdelegate is [@matthew-andrews](http://github.com/matthew-andrews) at FT Labs. All open source code released by FT Labs is licenced under the MIT licence. We welcome comments, feedback and suggestions. Please feel free to raise an issue or pull request. Enjoy.
+The lead developer of fruitmachine-ftdomdelegate is [@matthew-andrews](http://github.com/matthew-andrews) at FT Labs. All open source code released by FT Labs is licenced under the MIT licence. We welcome comments, feedback and suggestions. Please feel free to raise an issue or pull request. Enjoy.

@@ -3,7 +3,7 @@
 'use strict';
 
 /**
- * Wiring up test for fruitmachine-domdelegate
+ * Wiring up test for fruitmachine-ftdomdelegate
  *
  * @author Matt Andrews <matt@mattandre.ws>
  * @copyright The Financial Times Limited

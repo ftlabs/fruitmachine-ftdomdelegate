@@ -2,7 +2,7 @@
 var ListItem = fruitmachine.define({
   module: 'list-item',
   template: templateListItem,
-  helpers: [fruitmachineDOMDelegate],
+  helpers: [fruitmachineFTDOMDelegate],
 
   setup: function() {
     var self = this;

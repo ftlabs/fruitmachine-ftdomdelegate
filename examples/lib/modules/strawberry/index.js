@@ -2,7 +2,7 @@
 var Strawberry = fruitmachine.define({
   module: 'strawberry',
   template: templateStrawberry,
-  helpers: [fruitmachineDOMDelegate],
+  helpers: [fruitmachineFTDOMDelegate],
 
   setup: function() {
     var self = this;

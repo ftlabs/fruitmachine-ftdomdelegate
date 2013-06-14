@@ -1,4 +1,4 @@
-buster.testCase('fruitmachine-domdelegate', {
+buster.testCase('fruitmachine-ftdomdelegate', {
   setUp: function() {
     window.spys = {
       instantiate: this.spy(),

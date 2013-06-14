@@ -9,7 +9,7 @@ if (!fs.existsSync(dest)) fs.mkdirSync(dest);
 proxyquire.browserify()
   .require(require.resolve('./test'), { entry: true })
   .bundle()
-  .pipe(fs.createWriteStream(dest + '/fruitmachine-domdelegate.test.js'))
+  .pipe(fs.createWriteStream(dest + '/fruitmachine-ftdomdelegate.test.js'))
   .on('error', function(details) {
     console.log(details);
   });

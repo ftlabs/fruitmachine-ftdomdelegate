@@ -1,10 +1,10 @@
 var config = module.exports;
 
-config["fruitmachine-domdelegate"] = {
+config["fruitmachine-ftdomdelegate"] = {
   rootPath: '../',
   environment: "browser",
   sources: [
-    "test/build/fruitmachine-domdelegate.test.js",
+    "test/build/fruitmachine-ftdomdelegate.test.js",
     "node_modules/fruitmachine/build/fruitmachine.js"
   ],
   tests: [
