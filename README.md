@@ -28,6 +28,16 @@ var Apple = fruitmachine.define({
 
 Note: as long as you properly destroy your fruitmachine modules after you're finished with them, you need not worry about detached DOM nodes because [dom-delegate](http://github.com/ftlabs/dom-delegate) will ensure any event listeners added are removed when `destroy` is called on it.
 
+### Demonstration 'todo' app
+
+There is [a rework of the TODO example](http://github.com/matthew-andrews/fruitmachine-ftdomdelegate/tree/master/examples/) from the main fruitmachine project.  You will need to clone this repository then run the following command in order to view it.
+
+```
+npm install
+```
+
+The modules that make use of the fruitmachine-ftdomdelegate helper are located [here](https://github.com/matthew-andrews/fruitmachine-ftdomdelegate/blob/master/examples/lib/modules/list-item/index.js) and [here](https://github.com/matthew-andrews/fruitmachine-ftdomdelegate/blob/master/examples/lib/modules/strawberry/index.js).
+
 ## Installation
 
 ```
@@ -40,16 +50,6 @@ Download the [production version][min] (~2k gzipped) or the [development version
 
 [min]: http://github.com/ftlabs/fruitmachine-ftdomdelegate/raw/master/build/fruitmachine-domdelegate.min.js
 [max]: http://github.com/ftlabs/fruitmachine-ftdomdelegate/raw/master/build/fruitmachine-domdelegate.js
-
-### Demonstration 'todo' app
-
-There is [a rework of the TODO example](http://github.com/matthew-andrews/fruitmachine-ftdomdelegate/tree/master/examples/) from the main fruitmachine project.  You will need to clone this repository then run the following command in order to view it.
-
-```
-npm install
-```
-
-The modules that make use of the fruitmachine-ftdomdelegate helper are located [here](https://github.com/matthew-andrews/fruitmachine-ftdomdelegate/blob/master/examples/lib/modules/list-item/index.js) and [here](https://github.com/matthew-andrews/fruitmachine-ftdomdelegate/blob/master/examples/lib/modules/strawberry/index.js).
 
 ## Tests
 
