@@ -26,6 +26,8 @@ var Apple = fruitmachine.define({
 });
 ```
 
+Note: as long as you properly destroy your fruitmachine modules after you're finished with them, you need not worry about detached DOM nodes because [dom-delegate](http://github.com/ftlabs/dom-delegate) will ensure any event listeners added are removed when `destroy` is called on it.
+
 ## Installation
 
 ```
@@ -38,8 +40,6 @@ Download the [production version][min] (~2k gzipped) or the [development version
 
 [min]: http://github.com/ftlabs/fruitmachine-ftdomdelegate/raw/master/build/fruitmachine-domdelegate.min.js
 [max]: http://github.com/ftlabs/fruitmachine-ftdomdelegate/raw/master/build/fruitmachine-domdelegate.js
-
-Note: as long as you properly destroy your fruitmachine modules after you're finished with them, you need not worry about detached DOM nodes because [dom-delegate](http://github.com/ftlabs/dom-delegate) will ensure any event listeners added are removed when `destroy` is called on it.
 
 ### Demonstration 'todo' app
 
