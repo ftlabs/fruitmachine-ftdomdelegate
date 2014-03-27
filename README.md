@@ -46,10 +46,9 @@ $ npm install fruitmachine-ftdomdelegate
 
 or
 
-Download the [production version][min] (~2k gzipped) or the [development version][max].
+Download the [built version][download].
 
-[min]: http://github.com/ftlabs/fruitmachine-ftdomdelegate/raw/master/build/fruitmachine-domdelegate.min.js
-[max]: http://github.com/ftlabs/fruitmachine-ftdomdelegate/raw/master/build/fruitmachine-domdelegate.js
+[download]: http://wzrd.in/standalone/fruitmachine-ftdomdelegate@latest
 
 ## Tests
 
@@ -62,10 +61,6 @@ $ npm test
 
 - **Matt Andrews** - [@matthew-andrews](http://github.com/matthew-andrews)
 
-## License
-Copyright (c) 2013 The Financial Times Limited
-Licensed under the MIT license.
-
 ## Credits and collaboration
 
-The lead developer of fruitmachine-ftdomdelegate is [@matthew-andrews](http://github.com/matthew-andrews) at FT Labs. All open source code released by FT Labs is licenced under the MIT licence. We welcome comments, feedback and suggestions. Please feel free to raise an issue or pull request. Enjoy.
+The lead developer of fruitmachine-ftdomdelegate is [@matthew-andrews](http://github.com/matthew-andrews) at FT Labs. All open source code released by FT Labs is licenced under the MIT licence. We welcome comments, feedback and suggestions. Please feel free to raise an issue or pull request.
