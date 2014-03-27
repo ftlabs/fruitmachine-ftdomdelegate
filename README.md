@@ -46,10 +46,9 @@ $ npm install fruitmachine-ftdomdelegate
 
 or
 
-Download the [production version][min] (~2k gzipped) or the [development version][max].
+Download the [built version][download].
 
-[min]: http://github.com/ftlabs/fruitmachine-ftdomdelegate/raw/master/build/fruitmachine-domdelegate.min.js
-[max]: http://github.com/ftlabs/fruitmachine-ftdomdelegate/raw/master/build/fruitmachine-domdelegate.js
+[download]: http://wzrd.in/standalone/fruitmachine-ftdomdelegate@latest
 
 ## Tests
 
