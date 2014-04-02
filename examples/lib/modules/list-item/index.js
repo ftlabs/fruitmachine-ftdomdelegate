@@ -4,10 +4,9 @@ var ListItem = fruitmachine.define({
   template: templateListItem,
   helpers: [fruitmachineFTDOMDelegate],
 
-  setup: function() {
-    var self = this;
-    this.delegate.on('click', '.list-item_close-button', function() {
-      self.fire('closebuttonclick', self);
-    });
+  initialize: function() {
+    this.delegate.on('click', '.list-item_close-button', function(event, el) {
+      this.fire('closebuttonclick', el);
+    }.bind(this));
   }
 });

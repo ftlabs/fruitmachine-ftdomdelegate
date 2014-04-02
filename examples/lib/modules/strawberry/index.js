@@ -4,13 +4,12 @@ var Strawberry = fruitmachine.define({
   template: templateStrawberry,
   helpers: [fruitmachineFTDOMDelegate],
 
-  setup: function() {
-    var self = this;
-    this.delegate.on('submit', 'form', function(event) {
+  initialize: function() {
+    this.delegate.on('submit', 'form', function(event, el) {
       event.preventDefault();
-      var field = this.getElementsByTagName('input')[0];
-      self.fire('submit', field.value);
+      var field = el.getElementsByTagName('input')[0];
+      this.fire('submit', field.value);
       field.value = '';
-    });
+    }.bind(this));
   }
 });
