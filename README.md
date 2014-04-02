@@ -30,11 +30,7 @@ Note: as long as you properly destroy your fruitmachine modules after you're fin
 
 ### Demonstration 'todo' app
 
-There is [a rework of the TODO example](http://github.com/matthew-andrews/fruitmachine-ftdomdelegate/tree/master/examples/) from the main fruitmachine project.  You will need to clone this repository then run the following command in order to view it.
-
-```
-npm install
-```
+There is [a rework of the TODO example](http://ftlabs.github.io/fruitmachine-ftdomdelegate/examples/todo/) from the main fruitmachine project.
 
 The modules that make use of the fruitmachine-ftdomdelegate helper are located [here](https://github.com/matthew-andrews/fruitmachine-ftdomdelegate/blob/master/examples/lib/modules/list-item/index.js) and [here](https://github.com/matthew-andrews/fruitmachine-ftdomdelegate/blob/master/examples/lib/modules/strawberry/index.js).
 
