@@ -2,7 +2,7 @@
 var Strawberry = fruitmachine.define({
   module: 'strawberry',
   template: templateStrawberry,
-  helpers: [fruitmachineFTDOMDelegate],
+  helpers: [fruitmachineFtdomdelegate],
 
   initialize: function() {
     this.delegate.on('submit', 'form', function(event, el) {

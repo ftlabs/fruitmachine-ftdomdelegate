@@ -2,7 +2,7 @@
 var ListItem = fruitmachine.define({
   module: 'list-item',
   template: templateListItem,
-  helpers: [fruitmachineFTDOMDelegate],
+  helpers: [fruitmachineFtdomdelegate],
 
   initialize: function() {
     this.delegate.on('click', '.list-item_close-button', function(event, el) {
