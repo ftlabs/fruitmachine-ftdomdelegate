@@ -26,8 +26,8 @@
     "test": "node test/build && ./node_modules/.bin/grunt buster"
   },
   "dependencies": {
-    "dom-delegate": "~1.0.3"
-  },
+    "dom-delegate": "^2.0.2"
+  ,
   "devDependencies": {
     "buster": "~0.6.2",
     "grunt": "~0.4.1",
