@@ -18,7 +18,8 @@
       "url": "https://github.com/ftlabs/fruitmachine-ftdomdelegate/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/helper",
+  "browser": "lib/helper",
+  "main": "lib/node",
   "engines": {
     "node": "*"
   },
