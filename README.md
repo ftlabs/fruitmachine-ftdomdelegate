@@ -40,12 +40,6 @@ The modules that make use of the fruitmachine-ftdomdelegate helper are located [
 $ npm install fruitmachine-ftdomdelegate
 ```
 
-or
-
-Download the [built version][download].
-
-[download]: http://wzrd.in/standalone/fruitmachine-ftdomdelegate@latest
-
 ## Tests
 
 ```
