@@ -4,7 +4,16 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    buster: {},
+    buster: {
+      test: {
+        server: {
+          port: 1112,
+        },
+        test: {
+          config: 'test/buster.js',
+        },
+      },
+    },
 
     browserify: {
       build: {
