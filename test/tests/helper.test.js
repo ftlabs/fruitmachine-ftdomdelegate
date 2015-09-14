@@ -1,3 +1,6 @@
+var assert = buster.assertions.assert;
+var refute = buster.assertions.refute;
+
 buster.testCase('fruitmachine-ftdomdelegate', {
   setUp: function() {
     window.spys = {
