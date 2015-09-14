@@ -20,6 +20,10 @@ module.exports = function(grunt) {
         src: 'lib/helper.js',
         dest: 'build/<%= pkg.name %>.js'
       },
+      test: {
+        src: 'test/test.js',
+        dest: 'test/build/fruitmachine-ftdomdelegate.test.js'
+      },
       options: {
         standalone: 'fruitmachineFTDOMDelegate'
       }
@@ -38,6 +42,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  // Default task.
-  grunt.registerTask('default', ['browserify', 'uglify']);
+  grunt.registerTask('default', ['browserify:build', 'uglify']);
+  grunt.registerTask('test', ['browserify:test', 'buster']);
 };
