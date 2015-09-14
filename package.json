@@ -19,18 +19,32 @@
     }
   ],
   "browser": "lib/helper",
+  "browserify": {
+    "transform": [
+      "browserify-swap"
+    ]
+  },
+  "browserify-swap": {
+    "@packages": [
+      "fruitmachine-ftdomdelegate"
+    ],
+    "test": {
+      "dom-delegate": "./test/stubs/delegate.stub.js"
+    }
+  },
   "main": "lib/node",
   "engines": {
     "node": "*"
   },
   "scripts": {
-    "test": "node test/build && grunt buster"
+    "test": "BROWSERIFYSWAP_ENV=test grunt test"
   },
   "dependencies": {
     "dom-delegate": "^2.0.2"
   },
   "devDependencies": {
     "browserify": "^11.0.0",
+    "browserify-swap": "^0.2.2",
     "buster": "^0.7.0",
     "fruitmachine": "^1.1.0",
     "grunt": "^0.4.1",
@@ -38,8 +52,7 @@
     "grunt-buster": "^0.3.2",
     "grunt-cli": "^0.1.8",
     "grunt-contrib-uglify": "^0.9.2",
-    "phantomjs": "^1.9.18",
-    "proxyquireify": "^3.0.0"
+    "phantomjs": "^1.9.18"
   },
   "contributors": [
     {
