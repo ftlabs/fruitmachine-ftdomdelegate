@@ -14,6 +14,7 @@ buster.testCase('fruitmachine-ftdomdelegate', {
       template: function() {},
       initialize: function() {},
       setup: function() {},
+      mount: function() {},
       teardown: function() {},
       destroy: function() {}
     });
@@ -31,7 +32,7 @@ buster.testCase('fruitmachine-ftdomdelegate', {
     refute(window.spys.destroy.called);
   },
 
-  "on `setup` a dom-delegate should have its root method called once with the module's el and nothing more": function() {
+  "on `mount` a dom-delegate should have its root method called once with the module's el and nothing more": function() {
     var view = window.fruitmachine({
       module: 'apple',
       helpers: [window.fruitMachineFTDOMDelegate]
