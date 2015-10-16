@@ -56,7 +56,7 @@ buster.testCase('fruitmachine-ftdomdelegate', {
     refute(window.spys.destroy.called);
   },
 
-  "on `teardown` a dom-delegate should have its root method called once with no arguments and nothing more": function() {
+  "on `unmount` a dom-delegate should have its root method called once with no arguments and nothing more": function() {
     var view = window.fruitmachine({
       module: 'apple',
       helpers: [window.fruitMachineFTDOMDelegate]
@@ -75,7 +75,7 @@ buster.testCase('fruitmachine-ftdomdelegate', {
     window.spys.destroy.reset();
 
     view
-      .teardown();
+      ._unmount();
 
     refute(window.spys.instantiate.called);
     assert(window.spys.root.calledOnce);
@@ -106,7 +106,6 @@ buster.testCase('fruitmachine-ftdomdelegate', {
       .destroy();
 
     refute(window.spys.instantiate.called);
-    refute(window.spys.root.called);
     assert(window.spys.destroy.calledOnce);
     assert(window.spys.destroy.calledWith());
   },
