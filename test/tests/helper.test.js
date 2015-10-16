@@ -106,7 +106,6 @@ buster.testCase('fruitmachine-ftdomdelegate', {
       .destroy();
 
     refute(window.spys.instantiate.called);
-    refute(window.spys.root.called);
     assert(window.spys.destroy.calledOnce);
     assert(window.spys.destroy.calledWith());
   },
