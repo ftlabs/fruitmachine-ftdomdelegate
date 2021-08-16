@@ -1,4 +1,4 @@
-# fruitmachine-ftdomdelegate [![Build Status](https://travis-ci.org/ftlabs/fruitmachine-ftdomdelegate.png?branch=master)](https://travis-ci.org/ftlabs/fruitmachine-ftdomdelegate)
+# fruitmachine-ftdomdelegate [![Build Status](https://api.travis-ci.com/ftlabs/fruitmachine-ftdomdelegate.svg)](https://travis-ci.com/ftlabs/fruitmachine-ftdomdelegate)
 
 A [ftdomdelegate](http://github.com/ftlabs/ftdomdelegate) [FruitMachine](http://github.com/ftlabs/fruitmachine) helper.
 
